@@ -4,14 +4,9 @@
 */
 
 
-.mdl-ripple {
-  background: #000;
-  opacity: 0.001;
-}
-
 .mdl-layout__header-row {
+  align-items: center;
   justify-content: center;
-  padding: 0;
 }
 
 .mdl-layout__content {
@@ -20,15 +15,17 @@
   padding-top: 15pt;
 }
 
-.body {
-  padding-left: 15pt;
-  padding-right: 15pt;
-  padding-top: 15pt;
+body {
   background-color: aqua;
 }
 
-.right-image {
-  height: auto;
-  width: 250px;
+p {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
+
+img {
   float: right;
 }
